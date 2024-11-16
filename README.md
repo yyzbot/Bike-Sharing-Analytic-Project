@@ -17,7 +17,6 @@ We used various APIs such as:
 - **Meteostat**: Weather data API.
 - **Foursquare**: Business and place data API.
 - **Google APIs**: Location and routing services.
-- **Kaggle Weather Dataset**: Historical weather and rental business data.
 
 The collected data was cleaned and processed to make data-driven decision: finding optimal places with max bike traffic to place our vehicles to maximize usage frequency.
 
