@@ -26,7 +26,7 @@ The collected data was cleaned and processed to make data-driven decision: findi
 
 To make informed business decisions, we cleaned and processed the collected data, filled missing values, and merged datasets from different sources.
 
-We simulated Berlin's scooter traffic, conducted Exploratory Data Analysis on it, and used **Streamlit** to create a demo of our in-app navigation with real-time vehicle locations.
+We simulated Berlin's scooter traffic based on the cleaned data, conducted Exploratory Data Analysis on it, and used **Streamlit** to create a demo of our in-app navigation with real-time vehicle locations.
 
 ---
 
