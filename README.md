@@ -1,68 +1,33 @@
-# Grin - Scooter Sharing Service
+## Setting
 
-<img src="data/grin_logo.png" alt="Grin Logo" width="300"/>
+This project assumed the role as a data analyst for a company called **Grin**
 
-## Introduction
-
-- **Grin**: A scooter-sharing service located in **Berlin**, tailored for tourists and locals.
+- **Grin**: A bike-sharing service located in **Berlin**, tailored for tourists and locals, currently considering optimization of its vehicle placement and expansion to Munich and Frankfurt.
 - **Location**: Berlin is an ideal hub for this service due to its famous tourist attractions such as **Brandenburg Gate** and **Alexanderplatz**.
-- **Unique Feature**: Grin provides in-app navigation with real-time vehicle locations and offers users discounts at partner restaurants and tourist spots.
+- **Unique Feature**: Grin offers users discounts at partner restaurants and tourist spots.
 
 ---
 
 ## Project Overview
 
-We used various APIs such as:
+two APIs were used:
 
 - **Meteostat**: Weather data API.
-- **Foursquare**: Business and place data API.
-- **Google APIs**: Location and routing services.
+- **Foursquare**: Place data API.
 
-The collected data was cleaned and processed to make data-driven decision: finding optimal places with max scooter traffic to place our vehicles to maximize usage frequency.
+The collected data was cleaned and wrangled to make data-driven decision: finding optimal places across Berlin, Frankfurt and Munich with highest bike parks number and best general weather conditions to set up our vehicle stands nearby to maximize usage and return conveniency, and to tailor our marketing and promotional campaigns accordingly.
 
----
-
-## Data Cleaning & Processing
-
-To make informed business decisions, we cleaned and processed the collected data, filled missing values, and merged datasets from different sources.
-
-We simulated Berlin's scooter traffic based on the cleaned data, conducted Exploratory Data Analysis on it, and used **Streamlit** to create a demo of our in-app navigation with real-time vehicle locations.
+Entire year's bike park spots was simulated, and number of bikes nearest to each place and average weather conditions of each place were calculated, then visualizations were created to generate insights.
 
 ---
 
-## Project Structure
+## Findings Summary
 
-The project is organized into the following directories and scripts:
-```bash
-Redstone/
-│
-├── data/                              # Contains all the project saved datasets
-│
-├── notebooks/                         # Jupyter notebooks for analysis and exploration
-│   ├── AnalysisExploratory.ipynb      # Exploratory data analysis
-│   ├── DataAnalysis.ipynb             # Detailed data analysis
-│   └── ExplorationAPI.ipynb           # API exploration notebook
-│
-├── scripts/                           # Python scripts
-│   ├── maps.py                        # Script to generate map visualizations
-│   └── project_vis.py                 # Streamlit visualization script
-│
-├── README.md                          # Project README file
-│
-└── requirements.txt                   # Python dependencies for the project
+!(<visualizations/Plot 1 Bike Distribution By Place Category.png>)
 
----
-```
-## Running the Streamlit App
+The plot revealed the most popular bike park places by categories. Bikes can be placed outside of popular category of places in three cities and promotional campaigns can be designed accordingly. For example, users who rented bike at bike stands near restaurants could receive discount dining.
 
-To run the **Streamlit** app and visualize the data interactively:
+!(<visualizations/Plot 2 Average Wind Speed for Top 10 Places in Top 5 Categories.png>)
+!(<visualizations/Plot 3 Average Precipitation for Top 10 Places in Top 5 Categories.png>)
 
-1. Install the required Python packages:
-```bash
-pip install -r Redstone/requirements.txt
-```
-
-2.	Launch the Streamlit app:
-```bash
-streamlit run Redstone/scripts/project_vis.py
-```
+After reveal of most popular categories of places, one can drill down to explore most popular places in those categories. At this granularity, weather conditions should be considered so average wind speed and precipitation level were not beyond safe threshold for biking. Since it's simulated data the result was nuanced and served only as a demonstration of analytic idea.
