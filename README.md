@@ -23,7 +23,7 @@ Entire year's bike park spots was simulated, and number of bikes nearest to each
 
 ## Findings Summary
 
-!(<visualizations/Plot 1 Bike Distribution By Place Category.png>)
+![](<visualizations/Plot 1 Bike Distribution By Place Category.png>)
 
 The plot revealed the most popular bike park places by categories. Bikes can be placed outside of popular category of places in three cities and promotional campaigns can be designed accordingly. For example, users who rented bike at bike stands near restaurants could receive discount dining.
 
