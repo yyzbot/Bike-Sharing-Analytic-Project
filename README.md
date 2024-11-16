@@ -1,10 +1,10 @@
-# Grin - Bike Sharing Service
+# Grin - Scooter Sharing Service
 
 <img src="data/grin_logo.png" alt="Grin Logo" width="300"/>
 
 ## Introduction
 
-- **Grin**: A bike-sharing service located in **Berlin**, tailored for tourists and locals.
+- **Grin**: A scooter-sharing service located in **Berlin**, tailored for tourists and locals.
 - **Location**: Berlin is an ideal hub for this service due to its famous tourist attractions such as **Brandenburg Gate** and **Alexanderplatz**.
 - **Unique Feature**: Grin provides in-app navigation with real-time vehicle locations and offers users discounts at partner restaurants and tourist spots.
 
@@ -18,7 +18,7 @@ We used various APIs such as:
 - **Foursquare**: Business and place data API.
 - **Google APIs**: Location and routing services.
 
-The collected data was cleaned and processed to make data-driven decision: finding optimal places with max bike traffic to place our vehicles to maximize usage frequency.
+The collected data was cleaned and processed to make data-driven decision: finding optimal places with max scooter traffic to place our vehicles to maximize usage frequency.
 
 ---
 
@@ -26,7 +26,7 @@ The collected data was cleaned and processed to make data-driven decision: findi
 
 To make informed business decisions, we cleaned and processed the collected data, filled missing values, and merged datasets from different sources.
 
-We simulated Berlin's bike traffic, conducted Exploratory Data Analysis on it, and used **Streamlit** to create a demo of our in-app navigation with real-time vehicle locations.
+We simulated Berlin's scooter traffic, conducted Exploratory Data Analysis on it, and used **Streamlit** to create a demo of our in-app navigation with real-time vehicle locations.
 
 ---
 
