@@ -11,14 +11,14 @@ This project assumed the role as a data analyst for a company called **Grin**
 
 ## Project Overview
 
-two APIs were used:
+two APIs were used to extract weather and place data:
 
-- **Meteostat**: Weather data API.
-- **Foursquare**: Place data API.
+- **Meteostat**: Weather data
+- **Foursquare**: Place data
 
-The collected data was cleaned and wrangled to make data-driven decision: finding optimal places across Berlin, Frankfurt and Munich with highest bike parks number and best general weather conditions to set up our vehicle stands nearby to maximize usage and return conveniency, and to tailor our marketing and promotional campaigns accordingly.
-
-Entire year's bike park spots was simulated, and number of bikes nearest to each place and average weather conditions of each place were calculated, then visualizations were created to generate insights.
+Aim was to find optimal places with highest bike popularity and best weather conditions to set up vehicle stands nearby, and to tailor marketing campaigns accordingly.
+Combined API data with simulated bike traffic data and wrangled to calculate number of bikes nearest to each place and average weather conditions of each place.
+Visualizations were made based on the combined data to generate insights.
 
 ---
 
