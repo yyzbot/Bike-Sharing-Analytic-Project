@@ -68,9 +68,6 @@ The collected data was cleaned and processed to make data-driven decisions that 
 
 ## Data Cleaning & Processing (3 Points)
 
-**Recommended Deadline**: October 18th - October 21st  
-**Final Deadline**: October 24th at 01:29 PM CET
-
 To make informed business decisions, we cleaned and processed the collected data, filled missing values, and merged datasets from different sources. This allowed us to organize the data into structured formats like CSV, Excel, and HTML files. These datasets were essential for making predictions, optimizing routes, and enhancing user experience.
 
 We generated multiple visualizations and simulations using **Streamlit** to interact with the data.
