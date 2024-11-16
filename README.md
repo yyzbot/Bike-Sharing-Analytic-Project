@@ -1,3 +1,4 @@
+![](Grin_Logo.png)
 ## Setting
 
 This project assumed the role as a data analyst for a company called **Grin**
