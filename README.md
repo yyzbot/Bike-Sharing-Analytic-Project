@@ -27,7 +27,7 @@ Entire year's bike park spots was simulated, and number of bikes nearest to each
 
 The plot revealed the most popular bike park places by categories. Bikes can be placed outside of popular category of places in three cities and promotional campaigns can be designed accordingly. For example, users who rented bike at bike stands near restaurants could receive discount dining.
 
-!(<visualizations/Plot 2 Average Wind Speed for Top 10 Places in Top 5 Categories.png>)
-!(<visualizations/Plot 3 Average Precipitation for Top 10 Places in Top 5 Categories.png>)
+![](<visualizations/Plot 2 Average Wind Speed for Top 10 Places in Top 5 Categories.png>)
+![](<visualizations/Plot 3 Average Precipitation for Top 10 Places in Top 5 Categories.png>)
 
 After reveal of most popular categories of places, one can drill down to explore most popular places in those categories. At this granularity, weather conditions should be considered so average wind speed and precipitation level were not beyond safe threshold for biking. Since it's simulated data the result was nuanced and served only as a demonstration of analytic idea.
